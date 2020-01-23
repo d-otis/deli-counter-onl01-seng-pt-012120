@@ -21,7 +21,9 @@ def take_a_number(line, new_cust)
 end
 
 def now_serving(line)
-  if 
+  if line.size == 0
+    
+  end
 end
 
 # line(line)
