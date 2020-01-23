@@ -11,7 +11,7 @@ def line(arr)
     new_arr = []
     intro = "The line is currently: "
     arr.each_with_index {|name, index| new_arr << "#{index + 1}. #{name}"}
-    new_arr.unshift(intro)
+    new_arr.unshift(intro).join(" ")
     # binding.pry
     # puts new_arr.join(" ")
   end
