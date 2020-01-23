@@ -16,7 +16,8 @@ def line(arr)
 end
 
 def take_a_number(line, new_cust)
-  puts "Welcome, #{new_cust}. You are number #{1} in line."
+  line.push(new_cust)
+  puts "Welcome, #{new_cust}. You are number #{line.size} in line."
 end
 
 # line(line)
