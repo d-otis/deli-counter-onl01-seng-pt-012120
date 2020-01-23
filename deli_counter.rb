@@ -12,7 +12,7 @@ def line(arr)
     intro = "The line is currently: "
     arr.each_with_index {|name, index| new_arr << "#{index + 1}. #{name}"}
     new_arr.unshift(intro)
-    binding.pry
+    # binding.pry
     puts new_arr.join(" ")
   end
 
