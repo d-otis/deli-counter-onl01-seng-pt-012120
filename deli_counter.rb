@@ -20,4 +20,8 @@ def take_a_number(line, new_cust)
   puts "Welcome, #{new_cust}. You are number #{line.size} in line."
 end
 
+def now_serving
+  
+end
+
 # line(line)
