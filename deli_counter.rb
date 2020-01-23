@@ -15,4 +15,8 @@ def line(arr)
   end
 end
 
+def take_a_number
+  
+end
+
 # line(line)
