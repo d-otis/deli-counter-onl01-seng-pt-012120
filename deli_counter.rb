@@ -9,7 +9,7 @@ def line(arr)
     puts "The line is currently empty."
   else
     new_arr = []
-    intro = "The line is currently: "
+    intro = "The line is currently:"
     arr.each_with_index {|name, index| new_arr << "#{index + 1}. #{name}"}
     puts new_arr.unshift(intro).join(" ")
     # binding.pry
