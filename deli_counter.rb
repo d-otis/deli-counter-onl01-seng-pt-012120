@@ -14,7 +14,7 @@ def line(arr)
     arr.each_with_index {|name, index| new_arr << "#{index + 1}. #{name}"}
   end
   new_arr.unshift(intro)
-  puts new_arr.join()
+  puts new_arr.join
 end
 
 line(line)
