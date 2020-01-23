@@ -17,4 +17,4 @@ def line(arr)
   puts new_arr.join
 end
 
-line(line)
+# line(line)
