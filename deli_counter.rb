@@ -13,7 +13,7 @@ def line(arr)
     arr.each_with_index {|name, index| new_arr << "#{index + 1}. #{name}"}
     new_arr.unshift(intro)
     # binding.pry
-    puts new_arr.join(" ")
+    # puts new_arr.join(" ")
   end
 
 end
