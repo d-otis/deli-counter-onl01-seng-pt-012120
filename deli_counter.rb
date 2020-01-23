@@ -13,7 +13,8 @@ def line(arr)
     intro = "The line is currently: "
     arr.each_with_index {|name, index| new_arr << "#{index + 1}. #{name}"}
   end
-  puts new_arr.inspect
+  new_arr.unshift(intro)
+  puts new_arr.join()
 end
 
 line(line)
